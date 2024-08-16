@@ -1,0 +1,6 @@
+Logical Operation:
+    Logical operation help combine multiple conditions on the same line in if statements.
+    there are three type logical operations.
+    1-	Not (!)
+    2-	Or (||)
+    3-	And (&&)
