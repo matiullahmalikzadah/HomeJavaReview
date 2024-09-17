@@ -1,0 +1,29 @@
+Constructors:
+     Constructors help us create the objects from the classes in a             and neat way. we can
+     also put piece of code that we want to execute.
+Why we should use Constructors?
+     1) They help use write more secure classes.
+     2) Cleaner code.
+     3) More control over the value that we can assign to the instance fields.
+
+Syntax:
+     1) Usually public access modifier.
+     2) Same name as class name.
+     3) No return type not even void.
+     4) Parameters
+     5) Body of the constructor.
+
+Rules:
+
+
+
+
+
+
+
+
+
+
+
+Note/: if instance variable and value will be the same name on that time we have to use this.  .
+        // like: this.name=name;

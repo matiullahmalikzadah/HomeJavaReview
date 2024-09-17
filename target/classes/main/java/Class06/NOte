@@ -1,0 +1,30 @@
+Arithmetic Operations:
+      These operations help us perform simple mathematical operations like
+      Addition             => +
+      Subtraction           => -
+      Multiplication        => *
+      Division              => %
+      Modulus               => %
+
+Shorthand Operators:
+     They help us perform mathematical operations but using a little shorter syntax.
+     like:
+     add and update the variable Example: int a=10   a+=20   =>30
+
+ Relational Operation:
+ These operators help us compare things.
+ 	== check if two objects are equal
+ 	!= checks if two objects are not equals
+ 	>Great than
+ 	>Less than
+ 	>=greater than equal
+ 	>=less than equal
+ Logical Operators:
+ They help us combine multiple Boolean conditions
+    ! Not
+    || Or
+    && And
+ Increment/ Decrement Operators:
+ ++
+ --
+

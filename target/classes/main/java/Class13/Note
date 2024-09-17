@@ -1,0 +1,45 @@
+Type of variables:
+      there are three types of variables. local instance and static.
+Local Variables:
+      local variables are the variables which are created. declared inside a block of code. like
+      if else conditions, loop, switch statement, methods are block of code.
+Upside:
+    they occupy the memory for shortest period of time. as soon java is done executing that block
+    of code they are removed from the memory.
+    the code that we write using local variable is very easy to debug.
+
+Downside:
+    they can only be accessed within the block of code they are created.
+
+Instance variables:
+     Instance variables are the variables which are created outside of the block(if else,
+      switch, loops or methods etc.) of code bu inside a class.
+
+upside:
+      they can be accessed any where within the that class.
+downside:
+     they are created when an object of the class is created and they will stay in the memory
+     as long as that object is in the memory weather you use the or not.
+
+Local vs Instance variables:
+     whenever it is possible go and create locale variable. only go with instance variables
+     when you can't solve a problem with local variables.
+
+Static Variables:
+     static variables are create inside a class but outside of block of code with a static keyword.
+     Note: before the Instance variable we will use (static) word that will be static variable.
+     and local variable can not be static variable.
+
+Upside:
+     They are universal when it comes to scope and accessibility. we don't even need to create the object
+     of that class in which they are created we can simply write the name of the class and we
+     can access it.
+Downside:
+     Static variables occupy the memory for longer off all.
+     they are create even though you don't create any object of that class.
+
+Uses type of local variables:
+  Local:
+    when ever we are solving my problem many times we need locale variables to temporally store
+    data. in all these cases you should be going with local variables.
+

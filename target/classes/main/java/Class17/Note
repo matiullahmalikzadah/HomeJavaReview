@@ -1,0 +1,60 @@
+Inheritance:
+    Inheritance allows one class to have all the properties and methods from another class except
+    private members and constructions.
+    We use extends keyword.
+Why should we learn about Inheritance?
+    1) faster development
+    2) Save memory
+
+Syntax:
+    class Parent{
+
+
+    }
+
+    class Child extend parent{
+
+
+    }
+
+
+Rules:
+   1) Private members are not accessible in child classes.
+   2) Constructors are also no available for child classes directly.
+
+Types of Inheritance:
+    1) Single Inheritance.
+    2) Hierarchical Inheritance.
+    3) MultiLevel Inheritance.
+    4) Hybrid Inheritance
+    5) Multiple Inheritance (It is not supported by java).
+
+1) Single Inheritance:
+    only one parent and only child (Not very common).
+
+2) Hierarchical Inheritance.
+    One parent multiple child.
+
+3) MultiLevel Inheritance:
+    MultiLevel Inheritance happens when a class C inherits from B and B inherits from A like: C<-B<-A
+    Note:in this type we inherits from grandFader to Father and from Father to child
+
+4) Hybrid Inheritance:
+   4) Hybrid Inheritance is a mixture of Hierarchical nad MultiLevel Inheritance.
+
+5) Multiple Inheritance:
+   Multiple parent classes and one child class. It is not supported by java.
+   note: multiple inheritance not allowed in java meaning a class can't inheritance from
+   multiple classes at the same time.
+
+What is Diamond problem in OOP?
+   The abigmuity that arises when two classes A and C inherit fromA, and a further class D inherits
+   from both B and C, so that if there is a method in A that B and/or C has overridden,
+   and D does not override it, it is unclear which version of the method D should inherit.
+
+
+
+
+Not: it is like methode class to share the original code with other classes and we use extend
+on the class then if we want to make change in the single class we can do it. also in inheritance
+woke from parents to child class no from child to parents class

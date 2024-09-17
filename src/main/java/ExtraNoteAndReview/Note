@@ -1,0 +1,34 @@
+what is object oriented programing (OOP)?
+     Note: OOP is large code. it make easy the code. you can any changing in this code.
+     It is sample a way of writing code. some rules that we follow. there are other way
+     as well like functional programming, procedure programming. There are four main pillar of OOP
+     1) inheritance 2)polymorphism 3)Abstraction  4) Encapsulation
+
+Why we should learn OOP?
+    1)Code re-usability.
+    2)Its easier to write large amount of codes.
+    3)sharing code with others become easier.
+    4) Security of the code is increased.
+    5) Changing code becomes easier.
+
+Object:
+    An object is something that we can physically touch it. Everything around us like
+    chairs, table, mouse, etc.. They are all object. we can easily represent these object inside our computer by
+    telling a computer how an object look like and how it behaves.
+
+Class:
+    A class is like a design/map/blueprint that we use to create objects.
+
+String class:
+    A String class is used to store and manipulate text based data. Most of the information inside computers is
+    this form. String is most widely used class in all java.
+
+Creating objects from String class:
+    1) length()
+    2) isEmpty()
+
+
+
+
+
+Note: for find in internet bout java we can write on google on docs.oracle.com

@@ -1,0 +1,24 @@
+Enhanced for Loop:
+      enhanced for loop is used to iterate through data
+      structure which have multiples items stored inside them.
+
+Why should we use enhanced for loop?
+      it simple and easy to understand.
+Syntax:
+      for(DataTypeOfElement anyVariableName : NameOfTheDataType){
+
+      }
+
+Limitations of enhanced for loop:
+      1) Enhanced for loop can not be used for updating the element.
+      2) Access the element in the reverse order etc.
+
+break:
+      break keyword is used in switch cases statement and with the loop
+      to terminate the loops prematurely.
+why we should use break keyword?
+      using break keyword can help save a lot of processing time and our code can
+      execute faster.
+continue:
+       continue keyword is used to kip the code from a loop once we hit the skip keyword
+       java ignores the rest of the code in the loop and jumps to next iteration
