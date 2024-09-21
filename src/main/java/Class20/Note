@@ -1,0 +1,32 @@
+Interface:
+    Interface are like constructs. in which we define abstract methods which the classes
+    have to implement. they can also have public static finale variable.
+
+Why should we learn about interfaces?
+   1) Specially designed for abstraction.
+   2) Light weight as compared to abstract classes.
+   3) we can achieve multiple inheritance in interface.
+   4) there is no Diamond problem when having multiple inheritance.
+   5) help us build thing in a modular way can be used with classes even if they
+   are not closely related.
+
+Rules:
+    1) Interfaces don't have instance methods but can have static methods.
+    2) No instance fields are allowed all the fields inside an interface are public static final.
+    3) No constructors are allowed .
+    4) Can't create object as there no constructors.
+    5) Can't have final keyword with interface or method as they are by default abstract.
+    6) we can have multiple inheritance as there is no Diamond problem.
+    7) we use implement keyword when we have to implement an interface.
+
+
+   Note: no allowed instance and constructor variable inside the interface.
+   also we can have Private inside the interface
+   like: private void tester(){
+   }
+   also we can not have public void tester1(){
+   } because we have {}. if we have {} in public then we have to add default like:
+   public default void (){
+   } or we should have with out {} like
+   void tester1();
+

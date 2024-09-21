@@ -1,0 +1,9 @@
+Encapsulation:
+It is one of the four fundamental OOp concepts.
+    Create classes to write code and store data. use private access modifier to secure the data by
+    limiting the access. Create getter (is for Read the code) Setter(is for update the code) methods for
+    every field if you want others to change or see those fields.
+
+Why should we learn about Encapsulation?
+    1) it improves the control over the data that we store in the fields of a class which lead us to
+    more secure code.
