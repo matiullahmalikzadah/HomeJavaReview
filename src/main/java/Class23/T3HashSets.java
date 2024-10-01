@@ -1,23 +1,26 @@
 package Class23;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
-public class T2HashSets {
+public class T3HashSets {
     public static void main(String[] args) {
-        ArrayList<String > aList=new ArrayList<>();
-        aList.add("John");
-        aList.add("Jane");
-        aList.add("James");
-        aList.add("Jasmine");
-        aList.add("Jane");
-        aList.add("James");
-        System.out.println(aList);
- 
-        LinkedHashSet<String> b=new LinkedHashSet<>(aList);
-        aList.clear();
-        aList.addAll(b);
-        System.out.println(aList);
+        TreeSet<String > country=new TreeSet<>();
+        country.add("Japan");
+        country.add("USA");
+        country.add("Afghanistan");
+        country.add("India");
+        country.add("Farance");
+        country.add("Pakistan");
+        country.add("Turkey");
+        country.add("Chines");
+        country.add("Iraq");
+        country.add("Farance");
+        country.add("India");
+        System.out.println(country);
+        country.add(new String("Tajikistan"));
+        System.out.println(country);
+        System.out.println();
+        country.forEach(x-> System.out.println(x));
 
     }
 }

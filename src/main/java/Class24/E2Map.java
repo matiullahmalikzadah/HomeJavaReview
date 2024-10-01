@@ -1,22 +1,21 @@
 package Class24;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
-public class E1Map {
+public class E2Map {
     public static void main(String[] args) {
 
 
-        HashMap<String, Double> fruit = new HashMap<>();
-        fruit.put("Apple",30.0);
-        fruit.put("Apple",45.0);
-        fruit.put("Banana",12.0);
-        fruit.put("Peach",4.50);
-        fruit.put("Watermelon",11.2);
-        fruit.put("orange",30.0);
-        System.out.println(fruit);
-        System.out.println(fruit.size());
-        System.out.println(fruit.containsKey("Apple"));
-        System.out.println(fruit.containsValue(4.50));
+        LinkedHashMap<Integer,String > students=new LinkedHashMap<>();
+        students.put(1,"Ahmad");
+        students.put(2,"Jan");
+        students.put(3,"Shan");
+        students.put(4,"Ahmad");
+        System.out.println(students);
+        students.remove(3);
+        System.out.println(students);
+        students.replace(2,"Khan");
+        System.out.println(students);
 
     }
 

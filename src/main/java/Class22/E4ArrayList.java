@@ -2,22 +2,25 @@ package Class22;
 
 import java.util.ArrayList;
 
-public class E3ArrayList {
+public class E4ArrayList {
     public static void main(String[] args) {
 
-        ArrayList<Integer> number=new ArrayList<Integer>();
-        Integer num1= new Integer(10);
-        Integer num2=new Integer(20);
-        System.out.println(num1+num2);
+        ArrayList<Integer> number=new ArrayList<>();
+        number.add(10);
+        number.add(20);
+        number.add(25);
+        number.add(100);
+        number.add(5);
+        System.out.println(number);
 
-        String s="jaml";
-        String d=new String("jaml");
-
-        Integer num3=45;
-        Integer num4=50;
-        System.out.println(num3+num4);
+        int sum=0;
+        for (Integer n:number){
+            if (n>20){
 
 
-
+            sum+=n;  // it is shortcat of sum= sum+n;
+        }
+        }
+        System.out.println(sum);
     }
 }

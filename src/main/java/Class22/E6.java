@@ -2,7 +2,7 @@ package Class22;
 
 import java.util.ArrayList;
 
-public class T1ArrayList {
+public class E6 {
     public static void main(String[] args) {
 
         ArrayList<String > names=new ArrayList<>();
@@ -12,9 +12,9 @@ public class T1ArrayList {
         names.add("shan");
         names.add("wan");
 
-        System.out.println(names.isEmpty());
-        System.out.println(names.contains("Jan"));
-        System.out.println(names.size());
-        System.out.println(names);
+        /*for (String n:names){
+            System.out.println(n);
+        }*/
+        names.forEach(x-> System.out.println(x));
     }
 }

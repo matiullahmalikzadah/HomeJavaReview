@@ -2,19 +2,21 @@ package Class22;
 
 import java.util.ArrayList;
 
-public class T1ArrayList {
+public class T4ArrayList {
     public static void main(String[] args) {
 
-        ArrayList<String > names=new ArrayList<>();
-        names.add("Jan");
-        names.add("tan");
-        names.add("ban");
-        names.add("shan");
-        names.add("wan");
+        ArrayList<Integer > numbers=new ArrayList<>();
+        for (int i = 2; i < 500; i+=2) {
+            numbers.add(i);
+        }
+        System.out.println(numbers);
 
-        System.out.println(names.isEmpty());
-        System.out.println(names.contains("Jan"));
-        System.out.println(names.size());
-        System.out.println(names);
+        /*for (int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i)%5==0) {
+                numbers.remove(i);
+            }
+        }*/
+        numbers.removeIf(x->x%5==0);
+        System.out.println(numbers);
     }
 }

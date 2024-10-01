@@ -2,19 +2,23 @@ package Class22;
 
 import java.util.ArrayList;
 
-public class T1ArrayList {
+public class T2ArrayList {
     public static void main(String[] args) {
 
-        ArrayList<String > names=new ArrayList<>();
-        names.add("Jan");
-        names.add("tan");
-        names.add("ban");
-        names.add("shan");
-        names.add("wan");
+        ArrayList<String > drinks=new ArrayList<>();
+        drinks.add("Coffee");
+        drinks.add("Tea");
+        drinks.add("Cola");
+        drinks.add("Sprite");
+        drinks.add("milk");
 
-        System.out.println(names.isEmpty());
-        System.out.println(names.contains("Jan"));
-        System.out.println(names.size());
-        System.out.println(names);
+        for (int i = 0; i < drinks.size(); i++) {
+            if (drinks.get(i).contains("a") || drinks.get(i).contains("e")){
+                drinks.set(i,"water");
+
+            }
+
+        }
+        System.out.println(drinks);
     }
 }

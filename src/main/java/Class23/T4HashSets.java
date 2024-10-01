@@ -2,25 +2,24 @@ package Class23;
 
 import java.util.TreeSet;
 
-public class T3HashSets {
+public class T4HashSets {
     public static void main(String[] args) {
-        TreeSet<String > country=new TreeSet<>();
-        country.add("Japan");
-        country.add("USA");
-        country.add("Afghanistan");
-        country.add("India");
-        country.add("Farance");
-        country.add("Pakistan");
-        country.add("Turkey");
-        country.add("Chines");
-        country.add("Iraq");
-        country.add("Farance");
-        country.add("India");
-        System.out.println(country);
-        country.add(new String("Tajikistan"));
-        System.out.println(country);
-        System.out.println();
-        country.forEach(x-> System.out.println(x));
+        TreeSet<String > city=new TreeSet<>();
+        city.add("Kabul");
+        city.add("NYW");
+        city.add("Doshanbe");
+        city.add("Dehli");
+        city.add("Paris");
+        city.add("IslamAbad");
+        city.add("Istanbul");
+        city.add("Bizhing");
+        city.add("Baghdad");
+        city.add("Paris");
+        city.add("Dehli");
+        System.out.println(city);
+        city.removeIf(x->x.startsWith("K"));
+        System.out.println(city);
+
 
     }
 }

@@ -1,9 +1,8 @@
 package Class24;
 
-import java.util.Collection;
 import java.util.TreeMap;
 
-public class E3Map {
+public class E4Map {
     public static void main(String[] args) {
         TreeMap<String ,Double> makeup=new TreeMap<>();
         makeup.put("Lipstrin",20.0);
@@ -12,13 +11,17 @@ public class E3Map {
         makeup.put("Foundation",122.0);
         makeup.put("Foundation",122.0);
         makeup.put("EyeLiner",39.0);
-        System.out.println(makeup);
+        makeup.forEach((key,value)-> System.out.println(key+" "+value));
         System.out.println();
-        makeup.put("EyeLiner",39.0);
-        System.out.println(makeup);
-        Collection<String> onlyKey=makeup.keySet();
-        System.out.println(onlyKey);
-        Collection<Double> onlyValue=makeup.values();
-        System.out.println(onlyValue);
+        makeup.forEach((key,value)-> System.out.println(key));
+        System.out.println();
+        makeup.forEach((key,value)-> System.out.println(value));
+        makeup.forEach((key,value)-> {
+            if (key.contains("B")) {
+                System.out.println(value);
+            }
+
+        } );
+
     }
 }

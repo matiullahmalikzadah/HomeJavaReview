@@ -1,0 +1,51 @@
+Collection Framework:
+   Its collection of class and interface which help us build dynamic program which are capable of
+   handling large amount of data.
+   Note: Collection Framework can't work with primitive type.
+   Note: if we want too store the number in our code then we should use the Integer like:
+   ArrayList<Integer> number=new ArrayList<Integer>();
+         ze.
+            2) no ready made methods we have to create our own.
+
+         ArrayList:
+            Arraylist is better version than array, It is also index based. Its dynamic we don't need to provide
+            the size before hand and it contain a lot of method to manipulate the data inside it.
+
+         Syntax:
+            for Array we used this syntax   DataType [] nameForArray= new DataType [size]
+            String [] arr=new String[5];
+            ArrayList<DataType> nameForArrayList=new ArrayList<>();
+            ArrayList<String> arr=new ArrayList<>();
+
+         Methods From ArrayList:
+             Size()=> No of elements.
+             add(element)=> adds new element to the arrayList
+             get(Index)=> Returns the element on specified index.
+             remove(index)=> remove the element from the arrayList
+             indexOf(element) => Returns the index of the element.
+             Contains(element) => returns true if element is present otherwise false  Integer num1= new Integer(10);
+           Integer num2=new Integer(20);
+           System.out.println(num1+num2);
+
+Why we should learn about Collection framework?
+  Array is not good and we need something that is dynamic and more flexible for Example:
+   1) they are fix size.
+   2) no ready made methods we have to create our own.
+
+ArrayList:
+   Arraylist is better version than array, It is also index based. Its dynamic we don't need to provide
+   the size before hand and it contain a lot of method to manipulate the data inside it.
+
+Syntax:
+   for Array we used this syntax   DataType [] nameForArray= new DataType [size]
+   String [] arr=new String[5];
+   ArrayList<DataType> nameForArrayList=new ArrayList<>();
+   ArrayList<String> arr=new ArrayList<>();
+
+Methods From ArrayList:
+    Size()=> No of elements.
+    add(element)=> adds new element to the arrayList
+    get(Index)=> Returns the element on specified index.
+    remove(index)=> remove the element from the arrayList
+    indexOf(element) => Returns the index of the element.
+    Contains(element) => returns true if element is present otherwise false

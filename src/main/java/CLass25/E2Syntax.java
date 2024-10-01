@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class E1Syntax {
+public class E2Syntax {
     public static void main(String[] args) {
 
         String URL="http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/dashboard";

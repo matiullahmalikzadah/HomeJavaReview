@@ -1,10 +1,10 @@
 package Class23;
 
-import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
-public class E8Sets {
+public class E9Sets {
     public static void main(String[] args) {
-        LinkedHashSet<Integer> numbers=new LinkedHashSet<>();
+        TreeSet<Integer> numbers=new TreeSet<>();
         numbers.add(10);
         numbers.add(20);
         numbers.add(30);

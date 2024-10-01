@@ -1,24 +1,21 @@
 package Class23;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.ArrayList;
 
-public class E3LinkedList {
+public class E4ArrayListVLinkedList {
     public static void main(String[] args) {
 
-        List<Integer> number=new LinkedList<>();
-        number.add(10);
-        number.add(20);
-        number.add(30);
-        number.add(40);
-        number.add(50);
-        number.forEach(x-> System.out.println(x));
-        number.remove(2);
-        System.out.println(number);
-        number.removeIf(x->x>15);
-        System.out.println(number);
-        number.add(3,60);
-        System.out.println(number);
+        long startTime=System.currentTimeMillis();
+        ArrayList<Integer> numbers=new ArrayList<>();
+        for (int i = 0; i < 1000000; i++) {
+            numbers.add(i);
+        }
+        for (int i = 0; i < 1000; i++) {
+            System.out.println(numbers.get(100000));
+        }
+        long endTime=System.currentTimeMillis();
+        long timeTook=(endTime-startTime);
+        System.out.println(timeTook);
 
 
     }

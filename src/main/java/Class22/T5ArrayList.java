@@ -2,19 +2,17 @@ package Class22;
 
 import java.util.ArrayList;
 
-public class T1ArrayList {
+public class T5ArrayList {
     public static void main(String[] args) {
 
-        ArrayList<String > names=new ArrayList<>();
-        names.add("Jan");
-        names.add("tan");
-        names.add("ban");
-        names.add("shan");
-        names.add("wan");
+        ArrayList<String > fruit=new ArrayList<>();
+        fruit.add("Banana");
+        fruit.add("Apple");
+        fruit.add("Watermelon");
+        fruit.add("peach");
+        fruit.add("milk");
 
-        System.out.println(names.isEmpty());
-        System.out.println(names.contains("Jan"));
-        System.out.println(names.size());
-        System.out.println(names);
+        fruit.removeIf(x->x.endsWith("e")||x.contains("a"));
+        System.out.println(fruit);
     }
 }
